@@ -21,19 +21,19 @@ document.addEventListener("DOMContentLoaded", function () {
           },
     });
 
-		const defaultOption = document.querySelector('input[name="options"]:checked');
-		if (defaultOption) {
-				document.getElementById('selectedValue').textContent = defaultOption.value;
-		}
+	const defaultOption = document.querySelector('input[name="options"]:checked');
+	if (defaultOption) {
+			document.getElementById('selectedValue').textContent = defaultOption.value;
+	}
 
-		document.getElementById('saveButton').addEventListener('click', function() {
-				const selectedOption = document.querySelector('input[name="options"]:checked');
-				if (selectedOption) {
-						document.getElementById('selectedValue').textContent = selectedOption.value;
-						let offcanvas = bootstrap.Offcanvas.getInstance(document.getElementById('offcanvasSize'));
-						offcanvas.hide();
-				}
-		});
+	document.getElementById('saveButton').addEventListener('click', function() {
+			const selectedOption = document.querySelector('input[name="options"]:checked');
+			if (selectedOption) {
+					document.getElementById('selectedValue').textContent = selectedOption.value;
+					let offcanvas = bootstrap.Offcanvas.getInstance(document.getElementById('offcanvasSize'));
+					offcanvas.hide();
+			}
+	});
 
 });
 
