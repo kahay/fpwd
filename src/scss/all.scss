@@ -1,0 +1,10 @@
+@import "variables.scss";
+@import "fonts.scss";
+@import "main.scss";
+@import "custom.scss";
+@import "swiper.scss";
+$bootstrap-icons-font-dir: "../fonts/";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+@import "buttons.scss";
+@import "product-card/product-informations.scss";
+@import "product-card/offcanvas.scss"

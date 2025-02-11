@@ -1,0 +1,23 @@
+.offcanvas {
+  .offcanvas-title {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: $lighter-grey;
+      height: 1px;
+      bottom: -16px;
+    }
+  }
+  .form-check {
+    .btn {
+      font-size: 1.125rem;
+      min-width: 59px;
+      &:hover {
+        font-weight: 500 !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1.96px;
+}
+
+.btn-bag {
+  --bs-btn-padding-x: 0.4rem;
+  --bs-btn-padding-y: 0.4rem;
+  &:hover {
+    opacity: 0.8;
+  }
+}
